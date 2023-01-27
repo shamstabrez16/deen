@@ -31,7 +31,7 @@ public class DownloadController {
 	    @GetMapping("/download/{fileName:.+}")
 	    public ResponseEntity<Resource> downloadFile(@PathVariable String fileName) {
 	    	
-	        Resource resource = resourceLoader.getResource("classpath:/" + fileName+".zip");
+	        Resource resource = resourceLoader.getResource("classpath:/" + fileName);
 	       if( resource.exists()) {
 	    	   return ResponseEntity.ok()
 		                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + resource.getFilename() + "\"")

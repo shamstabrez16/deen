@@ -3,13 +3,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+ <title>Al- Deen</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
+<style type="text/css">
+@charset "ISO-8859-1";
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
@@ -26,6 +29,12 @@
   overflow: hidden;
   background-color: #F5F5DC;
   padding: 20px 10px;
+}
+.sideheader {
+  overflow: hidden;
+  background-color: #F5F5DC;
+  padding: 20px 10px;
+  color: #2f6191;
 }
 
 /* Style the header links */
@@ -75,16 +84,6 @@
   }
 }
     
-  </style>
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
 * {
   box-sizing: border-box;
 }
@@ -117,7 +116,7 @@ nav {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background: ##fffcfc;
+  background: #F5F5DC;
   padding: 20px;
 }
 
@@ -143,6 +142,7 @@ footer {
   background-color: #777;
   padding: 10px;
   text-align: center;
+  background-color:#F5F5DC;
   color: #F5F5DC;
 }
 
@@ -153,7 +153,9 @@ footer {
     flex-direction: column;
   }
 }
+
 </style>
+
 </head>
 <body>
 <header>
@@ -170,12 +172,13 @@ footer {
 <section>
 <div class="sidelayout">
   <nav>
+   <h1 >Topics</h1>
     <ul>
-      <li><a href="download/intro">Introduction</a></li>
+      <li><a href="intro">Introduction</a></li>
       <li><a href="download/aqidah">Aqidah (7 lessons)</a></li>
       <li><a href="download/taharah">Taharah (9 lessons)</a></li>
       <li><a href="download/scholarship">Islamic Scholarship (4 lessons)</a></li>
-      <li><a href="download/salah1">Salah (19 lessons) – Salah 1  </a></li>
+      <li><a href="download/salah1">Salah (19 lessons) - Salah 1 </a></li>
       <li><a href="download/salah2">Salah (19 lessons) - Salah 2</a></li>
       <li><a href="download/sawm">Sawm (3 lessons)</a></li>
       <li><a href="download/zakah">Zakah (3 lessons)</a></li>
@@ -184,7 +187,7 @@ footer {
   </nav>
  </div>
   <article>
-    <h1>London</h1>
+    <h1>Overview</h1>
     <p>The Deen Essentials Program is designed for individuals who wish to learn how to follow Islamic principles and practices. It covers basic concepts that are important for all Muslims to know. It is a self-study program and there is no longer a feature to ask questions about the materials. If you have any questions, please consult with a religious expert in your community</p>
     <p>The Essentials Program aims to provide a strong foundation in the three main aspects of the faith: Islam, Iman, and Ihsan. The course starts by emphasizing the significance of gaining sacred knowledge and then delves into the study of basic Aqidah (Islamic beliefs). It then proceeds to focus on the Hanafi Fiqh in a detailed and practical manner, starting with the topics of Taharah (purification) and Salah (prayer) and later covering Sawn (Fasting) and Zakah. Additionally, the program includes a module on the importance of adhering to qualified scholarship and a discussion on purifying the heart</p>
   </article>
