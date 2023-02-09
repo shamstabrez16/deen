@@ -16,7 +16,7 @@ public class HomeController {
 	@RequestMapping("/{fileName:.+}")
 	public String reDirectTo(@PathVariable String fileName) {
 
-System.out.print(fileName);
+		System.out.print(fileName);
 		return fileName;
 	}
 

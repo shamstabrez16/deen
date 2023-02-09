@@ -175,14 +175,14 @@ footer {
    <h1 >Topics</h1>
     <ul>
       <li><a href="intro">Introduction</a></li>
-      <li><a href="download/aqidah">Aqidah (7 lessons)</a></li>
-      <li><a href="download/taharah">Taharah (9 lessons)</a></li>
-      <li><a href="download/scholarship">Islamic Scholarship (4 lessons)</a></li>
-      <li><a href="download/salah1">Salah (19 lessons) - Salah 1 </a></li>
-      <li><a href="download/salah2">Salah (19 lessons) - Salah 2</a></li>
-      <li><a href="download/sawm">Sawm (3 lessons)</a></li>
-      <li><a href="download/zakah">Zakah (3 lessons)</a></li>
-      <li><a href="download/purification">Purification of the Heart (11 lessons)</a></li>
+      <li><a href="aqidah">Aqidah (7 lessons)</a></li>
+      <li><a href="taharah">Taharah (9 lessons)</a></li>
+      <li><a href="scholarship">Islamic Scholarship (4 lessons)</a></li>
+      <li><a href="salah1">Salah (19 lessons) - Salah 1 </a></li>
+      <li><a href="salah2">Salah (19 lessons) - Salah 2</a></li>
+      <li><a href="sawm">Sawm (3 lessons)</a></li>
+      <li><a href="zakah">Zakah (3 lessons)</a></li>
+      <li><a href="purification">Purification of the Heart (11 lessons)</a></li>
     </ul>
   </nav>
  </div>
