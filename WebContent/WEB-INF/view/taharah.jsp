@@ -192,11 +192,6 @@ div#wrapper {
         </ol>
 
 <p>Enable Muslims to live a traditional life, within a modern world </p>
-
-
-
-
-
     </nav>
 
 </div>

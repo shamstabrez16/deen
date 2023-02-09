@@ -23,15 +23,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/download")
 public class DownloadController {
 
 		@Autowired
 	    private ResourceLoader resourceLoader;
 
-	    @GetMapping("/download/{fileName:.+}")
+	    @GetMapping("/{fileName:.+}")
 	    public ResponseEntity<Resource> downloadFile(@PathVariable String fileName) {
 	    	
 	        Resource resource = resourceLoader.getResource("classpath:/" + fileName);
+	        
+	        System.out.println(resource.toString());
+	        System.out.println(resource.getFilename());
+	     
+	       
 	       if( resource.exists()) {
 	    	   return ResponseEntity.ok()
 		                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + resource.getFilename() + "\"")
